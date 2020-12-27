@@ -1,0 +1,498 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#home {
+    background-image: url(../images/lee-campbell-Pmw_LMwmOdU-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+#navbar {
+    display: flex;
+    justify-content: flex-end;
+    height: 8%;
+    width: 100%;
+    align-items: center;
+    border-bottom: 1px solid grey;
+    /* background: rgb(0, 0, 0, 0.3); */
+    position: fixed;
+    transition: 0.5s;
+}
+
+#navbar li {
+    list-style-type: none;
+}
+
+.anchor {
+    text-decoration: none;
+    font-family: 'Kanit', sans-serif;
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+}
+
+.logo-img {
+    height: 100px;
+    width: 100px;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    justify-content: space-evenly;
+}
+
+
+/* home */
+
+.home-content {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-header header {
+    color: rgb(190, 178, 62);
+}
+
+.home-h2 h2 {
+    color: white;
+    font-family: 'Texturina', serif;
+    font-size: 30px;
+}
+
+.home-p p {
+    color: white;
+    font-family: 'Texturina', serif;
+}
+
+.home-header header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.home-header {
+    background: rgb(0, 0, 0, 0.4);
+    width: 500px;
+    height: 100px;
+}
+
+
+/* about */
+
+#about {
+    background: black;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.description {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.me {
+    height: 300px;
+    width: 250px;
+    border-radius: 7px;
+}
+
+.para {
+    height: 300px;
+    width: 550px;
+    display: flex;
+    justify-content: center;
+}
+
+.para p {
+    font-size: 25px;
+    font-family: 'Sansita Swashed', cursive;
+    color: rgb(0, 0, 0);
+}
+
+.header {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    height: 100px;
+    width: 240px;
+    font-size: 40px;
+    color: white;
+    font-family: 'Goldman', cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* about me */
+
+#about {
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#about-container {
+    /* border: 1px solid white; */
+    height: 80vh;
+    width: 80vw;
+    background: rgb(36, 34, 34);
+    border-radius: 5px;
+    box-shadow: 1px 6px 10px rgb(87, 85, 85), -1px 0px 10px rgb(87, 85, 85);
+}
+
+.about-box {
+    display: flex;
+    flex-direction: row;
+    padding-top: 5%;
+}
+
+.about-para {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 5%;
+}
+
+header {
+    width: 700px;
+}
+
+.about-img {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.about-para p {
+    font-family: 'Aldrich', sans-serif;
+    color: white;
+}
+
+.me-img {
+    height: 250px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+
+/* skills */
+
+#skill {
+    background-color: rgb(32, 32, 32);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.webdev-img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.ui-img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.ml-img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.skill-box {
+    height: 70vh;
+    width: 70vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.div-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.div-h2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+}
+
+#btn-skill {
+    width: 120px;
+    height: 35px;
+    background: #44bbaa;
+    border: none;
+    border-radius: 7px;
+    transition: 0.5s;
+}
+
+#btn-skill:hover {
+    background-color: white;
+    transform: scale(1.07);
+}
+
+.ui,
+.webdev,
+.ml {
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.child {
+    height: 50px;
+    width: 200px;
+}
+
+.logo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-row-gap: 10vmin;
+    grid-column-gap: 10vmin;
+    width: 700px;
+    height: 300px;
+    justify-content: space-around;
+}
+
+.c_plus,
+.c {
+    padding-top: 20px;
+    height: 80px;
+    width: 90px;
+}
+
+.js {
+    width: 70px;
+    padding-left: 10px;
+}
+
+.container_a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+/* contact */
+
+#contact {
+    background: rgb(46, 44, 44);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.contact-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 55vh;
+}
+
+
+/* .contact-left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+} */
+
+
+/* .inner-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 250px;
+}*/
+
+.inner-inner-box {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    justify-content: space-evenly;
+}
+
+#hack {
+    height: 40px;
+    width: 70px;
+    border-radius: 7px;
+}
+
+#git {
+    font-size: 50px;
+}
+
+.hack {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#gmail {
+    height: 30px;
+    width: 50px;
+}
+
+.gmail {
+    height: 30px;
+    width: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 5%;
+}
+
+.phone {
+    height: 50px;
+    width: 201px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.email {
+    height: 50px;
+    width: 424px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contact-left a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+
+.contact-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 280px;
+    width: 500px;
+}
+
+#text,
+#phone,
+#email {
+    height: 30px;
+    width: 100%;
+    border-radius: 3px;
+    border: none;
+    box-shadow: inset 1px 1px 2px rgb(157, 165, 157);
+}
+
+#btn {
+    height: 30px;
+    width: 100%;
+    border-radius: 3px;
+    border: none;
+    box-shadow: inset 1px 1px 2px rgb(157, 165, 157);
+}
+
+#msg {
+    height: 90%;
+    width: 99.7%;
+    border-radius: 3px;
+    border: none;
+    box-shadow: inset 1px 1px 2px rgb(116, 121, 116);
+}
+
+#btn {
+    font-family: 'Rubik', sans-serif;
+    background: #44bbaa;
+    transition: 0.5s;
+}
+
+#btn:hover {
+    background-color: white;
+    transform: scale(1.01);
+    box-shadow: 1px 1px black;
+}
+
+button {
+    font-family: 'Rubik', sans-serif;
+}
+
+.h1 {
+    font-family: 'Kanit', sans-serif;
+    color: white;
+}
+
+.phone a {
+    color: white;
+}
+
+.email a {
+    color: white;
+}
+
+input {
+    height: 30px;
+    width: 250px;
+}
+
+.name-phone {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.div1,
+.div2,
+.div3 {
+    height: 30px;
+    width: 235px;
+}
+
+.div4 {
+    height: 135px;
+}
+
+form {
+    height: 280px;
+    width: 500px;
+}
